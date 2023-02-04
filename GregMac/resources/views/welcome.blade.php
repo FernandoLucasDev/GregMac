@@ -5,7 +5,7 @@
 
     <section>
         <p class="text-light fs-1 text-center title-home">GregMac</p>
-        <p class="text-center">Ensino e prestação de serviços.</p>
+        <p class="text-center">Ensino e serviços.</p>
         <div class="presentation-logos-home">
             <img src="/img/programming-logo.png" class="logo-home-presentation" alt="">
             <img src="/img/logo.png" class="logo-home-presentation" alt="">
