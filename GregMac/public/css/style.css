@@ -47,6 +47,7 @@ body {
     padding: 10px;
     display: grid;
     place-items: center;
+    margin-top: 4rem;
 }
 .presentation-logos-home {
     width: 80%;
@@ -64,6 +65,77 @@ body {
 
 .title-home {
     font-family: 'Kanit', sans-serif;
+}
+
+.text-presentation-primary {
+    width: 55%;
+    margin: auto;
+}
+
+.text-presentation-secondary {
+    width: 80%;
+    margin: auto;
+}
+
+.english-flag {
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.frameworks-logos {
+    width: 8rem;
+}
+
+.button-know-cousers {
+    width: 18rem;
+    background-color: #006dff;
+    border: 1px solid #00000000;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.img-card {
+    border-radius: 10px;
+}
+.search-for-course {
+    width: 40%;
+    margin: auto;
+}
+
+.input-search-course {
+    width: 100%;
+    height: 3rem;
+    border-radius: 30px;
+    border: 1px solid #00000000;
+    padding-left: 20px;
+}
+.card-gm {
+    background-color: #000;
+}
+
+.image-cover-show {
+    width: 26rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.big-card-show {
+    width: 60%; 
+    margin: auto;
+}
+
+.card-course {
+    width: 18rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.div-border {
+    border-left: solid 1px white;
+}
+.text-about {
+    width: 50%;
 }
 
 @media screen and (max-width: 880px) {
@@ -89,5 +161,55 @@ body {
         width: 5rem;
         height: fit-content;
     }
+
+    .text-presentation-primary, .text-presentation-secondary {
+        width: 100%;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .frameworks-logos {
+        width: 5rem;
+    }
+    .button-know-cousers {
+        margin: auto;
+    }
+    .search-for-course {
+        width: 95%;
+    }
     
+    .input-search-course {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .courses-list {
+        width: 100%;
+        height: fit-content;
+    }
+    .image-cover-show {
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .big-card-show {
+        width: 100%;
+    }
+
+    .card-show {
+        width: 95%;
+        margin: auto;
+    }
+
+    .card-course {
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .div-border {
+        border-left: solid 2px rgba(255, 255, 255, 0);
+    }
+    .text-about {
+        width: 95%;
+    }
+
 }

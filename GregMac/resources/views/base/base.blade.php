@@ -32,12 +32,17 @@
                       </li>
                       <li class="nav-item">
                         <div class="btn-header @yield('activate_courses')">
-                            <a class="nav-link active text-light text-center" href="/cousers"><i class="fa-solid fa-book header-icon"></i> Cursos</a>
+                            <a class="nav-link active text-light text-center" href="/cursos"><i class="fa-solid fa-book header-icon"></i> Cursos</a>
                         </div>
                       </li>
                       <li class="nav-item">
                         <div class="btn-header @yield('activate_services')">
                             <a class="nav-link active text-light text-center" href="/services"><i class="fa-solid fa-briefcase header-icon"></i> Serviços</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="btn-header @yield('activate_services')">
+                            <a class="nav-link active text-light text-center" href="/services"><i class="fa-solid fa-right-to-bracket header-icon"></i></i> Cadastre-se</a>
                         </div>
                       </li>
                       <li class="nav-item">

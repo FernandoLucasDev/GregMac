@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GregmacController;
+use App\Http\Controllers\ControllerApi;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $is_home_page = true;
-    return view('welcome', [
-        'home_page'=>$is_home_page
-    ]);
-});
+Route::get('/', [GregmacController::class,'index']);
+
+Route::get('/cursos', [GregmacController::class,'courses']);
+
+Route::get('/curso/{id}', [GregmacController::class,'show']);
+
+Route::get('/services', [GregmacController::class,'services']);
+
+Route::get('/register', [GregmacController::class,'registerDeveloper']);
+
+Route::get('/about', [GregmacController::class,'about']);
+
+Route::get('/coursesapi', [ControllerApi::class,'getCoursesList']);
